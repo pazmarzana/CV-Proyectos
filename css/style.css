@@ -246,8 +246,8 @@ label:focus{
     margin: 1em;
 }
 .proyecto-contenedorimagen img{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
     max-width:100%
 }
 
@@ -415,11 +415,11 @@ footer {
     }
     h3{
         font-size: 1.2rem;
-        padding: 0em 0em 0.3em 0em;
+        padding: 0.6em 0em 0.4em 0em;
     }
     h5{
         font-size: 1.1rem;
-        padding: 0em 0em 0.3em 0em;
+        padding: 0em 0em 0.4em 0em;
     }
     .cursos li{
         font-size: 0.8rem;
