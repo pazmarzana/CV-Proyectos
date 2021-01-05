@@ -164,6 +164,24 @@ label:focus{
     max-height:100px;
     padding: 1rem;
 }
+.tooltip {
+    position: relative;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 40%;
+    z-index: 2;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip:hover img{
+    opacity: 0.1;
+}
+
 .conocerMas{
     grid-row: 9/span 1;
     height: 6%;
@@ -183,7 +201,14 @@ label:focus{
 .certificaciones li{
     padding: 0em 0em 0.2em 0em;
 }
+/*---------------------------------------------------EXPERIENCIA LABORAL---------------------------------------------------*/
 
+.experiencialaboral ul{
+    padding: 0em 0em 0em 3em;
+}
+.experiencialaboral li{
+    padding: 0em 0em 0.2em 0em;
+}
 /*---------------------------------------------------ABOUT ME---------------------------------------------------*/
 
 .contenedor-acercademi{
