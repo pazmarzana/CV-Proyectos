@@ -60,7 +60,7 @@ ul{
 }
 .content_wrap{                  /* 80% para el texto en general*/
     width: 80%;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .rectangulo{                    /* linea naranja, titulos de las secciones*/
@@ -153,10 +153,11 @@ label:focus{
     grid-row: 8/span 1;
     display: flex;
     width: 90%;
-    max-width: 1500px;
+    max-width: 1700px;
     height: 100px;
     margin-top: 7%;
     justify-content: space-evenly;
+    padding: 1rem;
 }
 .lenguajes img {
     height: 80%;
@@ -174,12 +175,12 @@ label:focus{
 .flecha a{
     color: var(--casiblanco);
 }
-/*---------------------------------------------------CURSOS---------------------------------------------------*/
+/*---------------------------------------------------CERTIFICACIONES---------------------------------------------------*/
 
-.cursos ul{
+.certificaciones ul{
     padding: 0em 0em 0em 3em;
 }
-.cursos li{
+.certificaciones li{
     padding: 0em 0em 0.2em 0em;
 }
 
